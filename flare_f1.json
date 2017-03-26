@@ -1,0 +1,60 @@
+{
+    "name": "V2V Sensors",
+    "children": [{
+        "name": "WireLess Car Charging",
+        "children": [{
+            "name": "Increase Mileage"
+        }, {
+            "name": "More Electricity Costs"
+        }]
+    }, {
+        "name": "V2I enabled",
+        "children": [{
+            "name": "More Power Consumption", 
+			"children": [{"name": "Increased chances of grid failures"}]	
+        }, {
+            "name": "Adv: 1. Curve Warnings and 2. Intersection Management"
+        }, {
+            "name": "Speed Contronl/ Tracking",
+            "children": [{
+                "name": "Automatic Ticketing for violations"
+            }]
+        }]
+    }, {
+        "name": "Requires Cloud Storage",
+        "children": [{
+            "name": "Increase in costs incured for storage"
+       }]
+    }, {
+        "name": "Traffic Control Monitoring",
+        "children": [{
+            "name": "Identify New Routes",
+            "children": [{"name": "Better planning of public transportation"}]
+        }, {
+            "name": "Less Crashes",
+            "children": [{"name": "Lesser Lives Lost"}]
+        }, {
+            "name": "Reduced travel times",
+            "children": [{"name": "More Productivity"},{"name": "Movement becomes easier"}]
+        }, {
+            "name": "Fuel Use Decreases",
+            "children": [{"name": "Less Emission", 
+			"children":[{
+			"name": "Improves public health and environment"}]},
+			{"name": "Oil Prices Come Down",
+			"children":[{"name":"Economy Strengthens"}]}]
+        }]
+    }, {
+        "name": "Car Cost Increases",
+        "children": [{
+            "name": "People Stop Buying Cars",
+			"children":[{"name": "Less Pollution"}]
+        }, {
+            "name": "Car companies profit decreases",
+            "children": [{
+                "name": "Taxes and State Revenue Increase",
+                "children": [{"name": "Augument Social Welfare Schemes"}]
+            }]
+        }]
+    } ]
+}
